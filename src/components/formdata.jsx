@@ -52,7 +52,7 @@ function FormData(){
         {/* display post */}
         {
             data.map((item) =>{
-                return IsOpen === false ? <div className="w-[25%] border-2 border-slate-900 solid p-5 rounded-xl mt-7 ml-[35%]">
+                return IsOpen === false ? <div className="sm:w-[25%] w-[90%] border-2 border-slate-900 solid p-5  rounded-xl sm:mt-7 mt-14 ml-5 sm:ml-[35%]">
                 <img className="w-80 rounded-lg" src={URL.createObjectURL(item.img)} alt="" />
                 <h1 className="text-center font-semibold text-3xl">{item.title}</h1>
             </div>
